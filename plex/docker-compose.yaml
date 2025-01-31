@@ -7,7 +7,7 @@ services:
     restart: unless-stopped
     environment:
       - TZ=Europe/Amsterdam
-      - PLEX_CLAIM=claim-yEDBsHmHTHkK_s27bHR8
+      - PLEX_CLAIM=${PLEX_KEY}
     network_mode: host
     volumes:
       - ./config:/config

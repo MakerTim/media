@@ -1,4 +1,8 @@
-plex/config
-plex/data
-plex/transcode
+.*
+!.gitignore
+!.gitkeep
+
+/plex/config
+/plex/data
+/plex/transcode
 
